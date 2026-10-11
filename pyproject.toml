@@ -1,0 +1,26 @@
+[project]
+name = "data-agent"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "guko", email = "lllrx1997@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "asyncmy>=0.2.16",
+    "cryptography>=50.0.2",
+    "elasticsearch[async]>=8,<9",
+    "fastapi[standard]>=0.143.0",
+    "huggingface-hub>=1.33.0",
+    "jieba>=0.42.1",
+    "langchain>=1.4.4",
+    "langchain-deepseek>=1.1.1",
+    "langchain-huggingface>=1.2.3",
+    "langgraph>=1.2.14",
+    "loguru>=0.7.3",
+    "omegaconf>=2.3.1",
+    "qdrant-client>=1.19.1",
+    "requests>=2.34.2",
+    "sqlalchemy[asyncio]>=2.1.4",
+]
+

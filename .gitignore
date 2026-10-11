@@ -1,0 +1,28 @@
+#.idea/
+ #.venv/
+ #__pycache__/
+ #*.pyc
+ #.env
+ #.env.*
+ #*.log
+
+
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 环境变量和密码
+.env
+.env.*
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 临时文件
+*.log
+
+/docker/
